@@ -1,16 +1,8 @@
-import getKVFromUrl from './getKVFromUrl';
+import mapUrlParam from './mapUrlParam';
 import isArray from './isArray';
-import checkBankCode from './checkBankCode';
-import checkAddress from './checkAddress';
-import checkEmail from './checkEmail';
-import checkForeigner from './checkForeigner';
-import checkPhone from './checkPhone';
-export {
-  getKVFromUrl,
-  isArray,
-  checkBankCode,
-  checkAddress,
-  checkEmail,
-  checkForeigner,
-  checkPhone,
-};
+import isBankCode from './isBankCode';
+import isAddress from './isAddress';
+import isEmail from './isEmail';
+import isForeigner from './isForeigner';
+import isPhone from './isPhone';
+export { mapUrlParam, isArray, isBankCode, isAddress, isEmail, isForeigner, isPhone };

@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path/posix');
 const app = express();
 const port = 3000;
-app.use(express.static('.'));
+app.use(express.static('./example'));
 app.get('/', (req, res) => {
   res.render();
 });

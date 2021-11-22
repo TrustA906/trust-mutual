@@ -1,4 +1,4 @@
-const getKVFromUrl = (url: string) => {
+const mapUrlParam = (url: string) => {
   const params = url.split('?')[1];
   const kvObject: any = {};
   params.split('&').map((item) => {
@@ -6,4 +6,4 @@ const getKVFromUrl = (url: string) => {
   });
   return kvObject;
 };
-export default getKVFromUrl;
+export default mapUrlParam;

@@ -4,7 +4,7 @@
 @return {Boolean} true-校验通过，false-校验不通过
 */
 type cardNo = string;
-const checkBankCode = (value: cardNo): boolean => {
+const isBankCode = (value: cardNo): boolean => {
   return /^([1-9]{1})(\d{15}|\d{16}|\d{17}|\d{18})$/.test(value);
 };
-export default checkBankCode;
+export default isBankCode;
