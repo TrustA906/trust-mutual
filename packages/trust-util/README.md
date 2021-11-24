@@ -11,7 +11,7 @@ npm install trust-util
 使用：
 
 ```
-import { checkBankCode } from 'trust-util';
+import { isBankCode } from 'trust-util';
 ```
 
 ---
@@ -25,4 +25,6 @@ import { checkBankCode } from 'trust-util';
 5、isEmail：校验邮箱
 6、isForeigner：外国人永久居留证
 7、isPhone：校验手机号
+8、isCardID：校验身份证号
+9、fetchRequest：fetch请求
 ```

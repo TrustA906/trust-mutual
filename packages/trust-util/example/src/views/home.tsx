@@ -1,15 +1,20 @@
 import { defineComponent, ref, onMounted } from 'vue';
-import { isBankCode } from 'trust-util'
+import { isBankCode, fetchRequest } from 'trust-util';
+import { setting } from 'trust-util/es/fetchRequest';
 import '@/assets/styles/home.less';
 import 'vant/lib/index.css';
-const Msg = (bankCode: typeof isBankCode) => {
-  return '111';
-}
 export default defineComponent({
   setup() {
     onMounted(()=>{
       console.log('checkPhone', isBankCode('1111111'))
     });
+    const fetchData = () => {
+      const setting: setting = {
+        body:'',
+        needLoading: true,
+      }
+      fetchRequest('url', setting)
+    }
     return {
     };
   },
