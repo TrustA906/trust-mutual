@@ -5,12 +5,12 @@ module.exports = {
       preprocessor: 'less',
     },
     site: {
-      publicPath: '/trust-mobile/',
+      publicPath: '/trust-mutual/',
     },
   },
   site: {
-    title: 'trust-mobile',
-    logo: 'https://img.yzcdn.cn/vant/logo.png',
+    title: '信美前端组',
+    logo: 'http://127.0.0.1:8001/static/trust_logo.png',
     hideSimulator: false,
     nav: [
       {
@@ -36,6 +36,19 @@ module.exports = {
           {
             path: 'xm-input',
             title: 'XmInput',
+          },
+        ],
+      },
+      {
+        title: '工具库',
+        items: [
+          {
+            path: 'util-isEmail',
+            title: 'isEmail',
+          },
+          {
+            path: 'util-isAddress',
+            title: 'isAddress',
           },
         ],
       },
