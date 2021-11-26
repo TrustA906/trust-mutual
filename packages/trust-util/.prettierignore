@@ -1,4 +1,0 @@
-lib/**/*.js
-es/**/*.js
-dist/**/*.js
-dist/**/*.ts
