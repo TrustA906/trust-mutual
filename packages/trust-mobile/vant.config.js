@@ -10,7 +10,7 @@ module.exports = {
   },
   site: {
     title: '信美前端组',
-    logo: 'http://127.0.0.1:8001/static/trust_logo.png',
+    logo: 'https://sit-rums.trustlife.com/cms2/static/trust_logo.png',
     hideSimulator: false,
     nav: [
       {
@@ -43,11 +43,11 @@ module.exports = {
         title: '工具库',
         items: [
           {
-            path: 'util-isEmail',
+            path: 'isEmail',
             title: 'isEmail',
           },
           {
-            path: 'util-isAddress',
+            path: 'isAddress',
             title: 'isAddress',
           },
         ],
