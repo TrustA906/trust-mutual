@@ -43,15 +43,22 @@ module.exports = (projectName) => {
         });
     }
     const templateUrlVue = (answers,projectName,spinner)=>{//template路径
-        // let url = `direct:http://10.139.48.95/cdm/cdm_mng.git/${answers.features}${answers.terminal}`
-        let url = `direct:http://10.139.48.95/sdep/emarket.git#BUG-3828`
-        // console.log(url);
+        let url = ''
+        if(answers.terminal === 'PC'){
+            url = `direct:http://10.139.48.95/cdm/cdm_mng.git`
+        }else {
+            url = `direct:http://10.139.48.95/cdm/cdm_mng.git`
+        }
         downloadFramework(url, projectName, spinner, answers)
     }
     const templateUrlReact = (answers,projectName,spinner)=>{//template路径
-        let url = `direct:http://10.139.48.95/cdm/cdm_static.git/${answers.features}${answers.terminal}`
-        console.log(url);
-        // downloadFramework(url, projectName, spinner, answers)
+        let url = ''
+        if(answers.terminal === 'PC'){
+            url = `direct:http://10.139.48.95/standard/redux-pc.git`
+        }else {
+            url = `direct:http://10.139.48.95/standard/standard_mobile.git`
+        }
+        downloadFramework(url, projectName, spinner, answers)
     }
     isFileExist(projectName).then(() => {
         inquirer.prompt(promptList).then(answers => {

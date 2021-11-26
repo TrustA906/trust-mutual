@@ -2,11 +2,11 @@
 
 ###   安装
 #### mac安装
->sudo npm i xmt -g
+>sudo npm i create-trust-app -g
 
 
 #### windows安装
->npm i xmt -g
+>npm i create-trust-app -g
 ### 模块
 #### 初始化
 > xmt init 目录名
