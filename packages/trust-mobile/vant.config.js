@@ -5,7 +5,7 @@ module.exports = {
       preprocessor: 'less',
     },
     site: {
-      publicPath: '/tempComponent/',
+      publicPath: '/trust-mobile/',
     },
   },
   site: {
@@ -30,8 +30,8 @@ module.exports = {
         title: '基础组件',
         items: [
           {
-            path: 'demo-button',
-            title: 'DemoButton 按钮',
+            path: 'xm-button',
+            title: 'XmButton',
           },
           {
             path: 'xm-input',

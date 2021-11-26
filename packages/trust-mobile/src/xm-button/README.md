@@ -1,16 +1,16 @@
-# DemoButton 按钮
+# XmButton 按钮
 
 ### 介绍
 
-DemoButton 是一个示例按钮组件
+XmButton 是一个按钮组件
 
 ### 引入
 
 ```js
 import Vue from 'vue';
-import { DemoButton } from 'tempComponent';
+import { XmButton } from 'tempComponent';
 
-Vue.use(DemoButton);
+Vue.use(XmButton);
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ Vue.use(DemoButton);
 ### 基础用法
 
 ```html
-<demo-button type="primary" />
+<xm-button type="primary" />
 ```
 
 ## API

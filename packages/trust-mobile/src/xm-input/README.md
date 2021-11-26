@@ -2,7 +2,7 @@
 
 ### 介绍
 
-XmInput 是一个示例按钮组件
+XmInput 是一个input组件
 
 ### 引入
 
