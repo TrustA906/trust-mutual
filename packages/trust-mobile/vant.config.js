@@ -5,7 +5,7 @@ module.exports = {
       preprocessor: 'less',
     },
     site: {
-      publicPath: '/trust-mutual/',
+      publicPath: '/trust-mobile/',
     },
   },
   site: {
@@ -30,25 +30,12 @@ module.exports = {
         title: '基础组件',
         items: [
           {
-            path: 'xm-button',
-            title: 'XmButton',
+            path: 't-button',
+            title: 'TButton',
           },
           {
-            path: 'xm-input',
-            title: 'XmInput',
-          },
-        ],
-      },
-      {
-        title: '工具库',
-        items: [
-          {
-            path: 'isEmail',
-            title: 'isEmail',
-          },
-          {
-            path: 'isAddress',
-            title: 'isAddress',
+            path: 't-input',
+            title: 'TInput',
           },
         ],
       },

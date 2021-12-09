@@ -1,16 +1,16 @@
-# XmInput
+# TInput
 
 ### 介绍
 
-XmInput 是一个input组件
+TInput 是一个input组件
 
 ### 引入
 
 ```js
 import Vue from 'vue';
-import { XmInput } from 'tempComponent';
+import { TInput } from 'trust-mobile';
 
-Vue.use(XmInput);
+Vue.use(TInput);
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ Vue.use(XmInput);
 ### 基础用法
 
 ```html
-<xm-input />
+<t-input />
 ```
 
 ## API

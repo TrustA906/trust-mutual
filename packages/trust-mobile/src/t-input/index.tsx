@@ -2,7 +2,7 @@ import { defineComponent } from 'vue';
 import './index.less'
 
 export default defineComponent({
-  name: 'XmInput',
+  name: 't-input',
   props: {
     placeholder: {
       require: false,
@@ -21,7 +21,7 @@ export default defineComponent({
   },
   render() {
     return (
-    <div class="xm-input">
+    <div class="t-input">
       <input placeholder={this.placeholder} onChange={this.updateModel} />
     </div>
     )

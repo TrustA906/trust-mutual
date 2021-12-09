@@ -4,8 +4,8 @@
 
 ```bash
 # 通过 npm 安装
-npm i tempComponent -S
+npm i trust-mobile -S
 
 # 通过 yarn 安装
-yarn add tempComponent
+yarn add trust-mobile
 ```

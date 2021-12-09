@@ -2,7 +2,7 @@ import { defineComponent } from 'vue';
 import './index.less';
 
 export default defineComponent({
-  name: 'xm-button',
+  name: 't-button',
   props: {
     name: {
       require: false,
@@ -17,7 +17,7 @@ export default defineComponent({
   setup() {
   },
   render() {
-    return (<button class="xm-button" style={{backgroundColor: this.color}}>
+    return (<button class="t-button" style={{backgroundColor: this.color}}>
     {this.name}
   </button>)
   }

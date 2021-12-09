@@ -1,16 +1,16 @@
-# XmButton 按钮
+# TButton 按钮
 
 ### 介绍
 
-XmButton 是一个按钮组件
+TButton 是一个按钮组件
 
 ### 引入
 
 ```js
 import Vue from 'vue';
-import { XmButton } from 'tempComponent';
+import { TButton } from 'trust-mobile';
 
-Vue.use(XmButton);
+Vue.use(TButton);
 ```
 
 ## 代码演示
@@ -18,7 +18,7 @@ Vue.use(XmButton);
 ### 基础用法
 
 ```html
-<xm-button type="primary" />
+<t-button type="primary" />
 ```
 
 ## API
