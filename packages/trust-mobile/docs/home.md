@@ -6,5 +6,5 @@ trust-mobile是信美前端组全体成员合力打造的一款针对于移动�
 
 ### 特性
 
-- vue+typescript+tsc
+- vue+typescript+tsx
 - esmodule
