@@ -1,25 +1,17 @@
 import { defineComponent } from 'vue';
-import './index.less';
+import { Button } from 'vant';
+import type { ButtonProps } from 'vant';
 
 export default defineComponent({
   name: 't-button',
-  props: {
-    name: {
-      require: false,
-      type: String,
-      default: ''
-    },
-    color: {
-      type: String,
-      default: '#f44'
+  setup(props:any,{slots}) {
+    const text = slots.default ? slots.default() : props.text;
+    return {
+      text
     }
   },
-  setup() {
-  },
-  render() {
-    return (<button class="t-button" style={{backgroundColor: this.color}}>
-    {this.name}
-  </button>)
+  render(props:ButtonProps) {
+    return (<Button {...props} class="t-button">{this.text}</Button>)
   }
 });
 

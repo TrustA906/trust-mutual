@@ -1,8 +1,8 @@
 import { defineComponent } from 'vue';
-import './index.less'
+import { Field } from 'vant';
 
 export default defineComponent({
-  name: 't-input',
+  name: 'TInput',
   props: {
     placeholder: {
       require: false,
@@ -11,19 +11,6 @@ export default defineComponent({
     },
   },
   setup(props, {emit}) {
-    const updateModel = (event:any) => {
-      const {value} = event.target
-      emit('update:modelValue', value);
-    }
-    return {
-      updateModel
-    }
-  },
-  render() {
-    return (
-    <div class="t-input">
-      <input placeholder={this.placeholder} onChange={this.updateModel} />
-    </div>
-    )
+    return () => <Field />
   }
 });
