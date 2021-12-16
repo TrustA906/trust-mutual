@@ -9,8 +9,8 @@ module.exports = {
     },
   },
   site: {
-    title: 'trust-mobile',
-    logo: 'https://img.yzcdn.cn/vant/logo.png',
+    title: '信美前端组',
+    logo: 'https://sit-rums.trustlife.com/cms2/static/trust_logo.png',
     hideSimulator: false,
     nav: [
       {
@@ -30,12 +30,12 @@ module.exports = {
         title: '基础组件',
         items: [
           {
-            path: 'xm-button',
-            title: 'XmButton',
+            path: 't-button',
+            title: 'TButton',
           },
           {
-            path: 'xm-input',
-            title: 'XmInput',
+            path: 't-input',
+            title: 'TInput',
           },
         ],
       },
