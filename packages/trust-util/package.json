@@ -3,9 +3,8 @@
   "version": "1.0.5",
   "description": "前端工具库集合",
   "scripts": {
-    "dev": "node server.js",
-    "start": "gulp && node server.js",
-    "build": "gulp"
+    "build": "gulp",
+    "test": "jest"
   },
   "files": [
     "dist",
@@ -36,10 +35,17 @@
     "gulp-cli": "^2.3.0",
     "gulp-esbuild": "^0.9.1",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "jest": "^27.4.7",
     "lerna": "^4.0.0",
     "prettier": "^2.4.1",
     "ts-loader": "^9.2.6",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^27.4.6"
   }
 }
