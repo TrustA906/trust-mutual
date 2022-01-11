@@ -3,7 +3,7 @@
   @param {String} value 传入号码
   @return {Boolean} true-校验通过，false-校验不通过
   */
-const isPhone = (value: string): boolean => {
+const isPhone = (value: string | undefined): boolean => {
   return /^1\d{10}$/.test(value);
 };
 export default isPhone;

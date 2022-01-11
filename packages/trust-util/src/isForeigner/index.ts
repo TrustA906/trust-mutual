@@ -3,7 +3,7 @@
   @param {String} value 传入号码
   @return {Boolean} true-校验通过，false-校验不通过
 */
-const isForeigner = (value: string): boolean => {
+const isForeigner = (value: string | undefined): boolean => {
   return /^([A-Z]{1}\w{14,29})$/.test(value.toUpperCase());
 };
 export default isForeigner;
