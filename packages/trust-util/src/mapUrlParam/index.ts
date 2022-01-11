@@ -1,4 +1,4 @@
-const mapUrlParam = (url: string) => {
+const mapUrlParam = (url: string | undefined) => {
   const params = url.split('?')[1];
   const kvObject: any = {};
   params.split('&').map((item) => {

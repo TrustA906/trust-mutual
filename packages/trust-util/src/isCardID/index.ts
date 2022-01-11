@@ -1,7 +1,7 @@
 export interface citys {
   [key: number]: string;
 }
-const isCardID = (sId: string) => {
+const isCardID = (sId: string | undefined) => {
   if (!/(^\d{15}$)|(^\d{17}(\d|X|x)$)/.test(sId)) {
     alert('你输入的身份证长度或格式错误');
     return false;
