@@ -1,0 +1,1 @@
+import { uploadOss } from '../src';
