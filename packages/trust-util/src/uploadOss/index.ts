@@ -1,6 +1,6 @@
-import hmacSHA1 from 'crypto-js/hmac-sha1';
-import encBase64 from 'crypto-js/enc-base64';
-import { Base64 } from 'js-base64';
+import hmacSHA1 = require('crypto-js/hmac-sha1');
+import * as encBase64 from 'crypto-js/enc-base64';
+import * as Base64 from 'js-base64';
 import axios from 'axios';
 import type { uploadConfig } from './type';
 const uploadOss = (params: uploadConfig) => {
