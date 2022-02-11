@@ -17,8 +17,8 @@ export default defineComponent({
           break
         case 'ossUpload':
           const uploadConfig = {
-            access_key_id: 'bR8Q02sQpT9eF147',
-            access_key_secret: 'vg161TMX8G1KqZQuZJ1sAgGxy9vNoX',
+            access_key_id: '',
+            access_key_secret: '',
             filename: file.value.name,
             endpoint: 'oss-cn-beijing.aliyuncs.com',
             file: file.value,
