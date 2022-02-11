@@ -7,3 +7,4 @@ export { default as isForeigner } from './isForeigner';
 export { default as isPhone } from './isPhone';
 export { default as isCardID } from './isCardID';
 export { default as fetchRequest } from './fetchRequest';
+export { default as uploadOss } from './uploadOss';

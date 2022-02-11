@@ -14,7 +14,6 @@
     "test": "vant-cli test",
     "lint": "vant-cli lint",
     "build": "vant-cli build",
-    "prepare": "husky install",
     "release": "vant-cli release",
     "test:coverage": "open test/coverage/index.html",
     "build-site": "vant-cli build-site"
