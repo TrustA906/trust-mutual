@@ -8,4 +8,5 @@ export { default as isPhone } from './isPhone';
 export { default as isCardID } from './isCardID';
 export { default as fetchRequest } from './fetchRequest';
 export { default as uploadOss } from './uploadOss';
-export { default as isName } from './isName';
+export * from './isName/index';
+export { isIdCard, isIdTWPass, isIdHKMacaoPass } from './isCard';
