@@ -12,7 +12,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd packages/trust-util && npm run test "
+    "util-start": "cd packages/trust-util/example && npm run dev ",
+    "util-test": "cd packages/trust-util && npm run test ",
+    "util-build": "cd packages/trust-util && gulp "
   },
   "author": "trust-front-end",
   "license": "MIT"
