@@ -23,6 +23,21 @@
   "author": "信美前端组",
   "license": "MIT",
   "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "@vitejs/plugin-vue": "^1.9.0",
+    "@vitejs/plugin-vue-jsx": "^1.1.8",
+    "autoprefixer": "^10.3.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "less": "^4.1.2",
+    "postcss": "^8.3.8",
+    "postcss-import": "^14.0.2",
+    "postcss-plugin-px2rem": "^0.8.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "tailwindcss": "^2.2.16",
+    "vite": "^2.5.10",
+    "vue-tsc": "^0.3.0",
     "@types/crypto-js": "^4.1.0",
     "@types/express": "^4.17.13",
     "@types/gulp": "^4.0.9",
@@ -51,6 +66,7 @@
     "axios": "^0.24.0",
     "babel-jest": "^27.4.6",
     "crypto-js": "^4.1.1",
-    "js-base64": "^3.7.2"
+    "js-base64": "^3.7.2",
+    "vite": "2"
   }
 }
