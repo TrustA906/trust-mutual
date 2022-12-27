@@ -77,7 +77,7 @@ demo(react)
 ├─scripts
  /   ├─build.js
  /   ├─start.js
-  /  ├─test.js
+  /  ├─VVS.js
 ├─public
  /   ├─lib
  /   ├─index.html

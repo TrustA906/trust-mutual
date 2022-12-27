@@ -19,11 +19,11 @@
   docs
     isEmail.md
   ```
-- 测试用例命名，组件名.test.js，如：
+- 测试用例命名，组件名.VVS.js，如：
 
   ```
   tests
-    isEmail.test.js
+    isEmail.VVS.js
   ```
 - 判断类方法命名 is+动词+名词/is+名词
 ## ts类型导出
