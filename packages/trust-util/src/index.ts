@@ -1,13 +1,7 @@
 import getBirthByCard from "./getBirthByCard";
 
 export { default as mapUrlParam } from './mapUrlParam';
-export { default as isArray } from './verify/isArray';
-export { default as isBankCode } from './verify/isBankCode';
-export { default as isAddress } from './verify/isAddress';
-export { default as isEmail } from './verify/isEmail';
-export { default as isForeigner } from './verify/isForeigner';
-export { default as isPhone } from './verify/isPhone';
-export { default as isCardID } from './verify/isCardID';
+
 export { default as fetchRequest } from './fetchRequest';
 export { default as uploadOss } from './uploadOss';
 export { default as getLabelByValue } from './getLabelByValue';
@@ -17,4 +11,3 @@ export { default as removeAllSpace } from './removeAllSpace';
 export { default as numFormat } from './numFormat';
 export { default as getAgeByBirth } from './getAgeByBirth';
 export { default as desensitize } from './desensitize';
-export * from './verify/isName/index';
