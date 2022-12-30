@@ -1,5 +1,3 @@
-import getBirthByCard from "./getBirthByCard";
-
 export { default as mapUrlParam } from './mapUrlParam';
 
 export { default as fetchRequest } from './fetchRequest';
@@ -11,3 +9,4 @@ export { default as removeAllSpace } from './removeAllSpace';
 export { default as numFormat } from './numFormat';
 export { default as getAgeByBirth } from './getAgeByBirth';
 export { default as desensitize } from './desensitize';
+export * as verify from './verify';

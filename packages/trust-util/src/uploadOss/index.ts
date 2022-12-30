@@ -3,7 +3,7 @@ import * as encBase64 from 'crypto-js/enc-base64';
 import * as Base64 from 'js-base64';
 import axios from 'axios';
 import type { uploadConfig } from './type';
-const uploadOss = (params: uploadConfig) => {
+const uploadOss = (params: uploadConfig,call:(res:any)=>void) => {
   const expiration = new Date(new Date().getTime() + 60000 * 60 * 24).toISOString();
   const policyText = {
     expiration: expiration, //设置该Policy的失效时间，超过这个失效时间之后，就没有办法通过这个policy上传文件了
@@ -36,7 +36,7 @@ const uploadOss = (params: uploadConfig) => {
   axios
     .post(params.url, formData)
     .then((res: any) => {
-      console.log(res);
+      call(res);
     })
     .catch((err: any) => {
       console.log(err);
