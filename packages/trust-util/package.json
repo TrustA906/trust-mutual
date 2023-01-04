@@ -1,6 +1,6 @@
 {
   "name": "trust-util",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "前端工具库集合",
   "scripts": {
     "start": "cd example && npm run dev",
@@ -12,10 +12,10 @@
     "lib",
     "es"
   ],
-  "homepage": "https://trusta906.github.io/trust-mutual/",
+  "homepage": "https://trusta906.github.io/trust-util/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TrustA906/trust-mutual"
+    "url": "https://github.com/TrustA906/trust-mutual/packages/trust-util"
   },
   "main": "lib/index.js",
   "module": "es/index.js",
